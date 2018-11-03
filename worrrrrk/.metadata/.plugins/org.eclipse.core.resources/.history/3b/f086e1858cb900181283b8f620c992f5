@@ -1,0 +1,2 @@
+<?php
+echo "이름:" .$_POST["name"] ."<br>"

@@ -1,0 +1,73 @@
+<?php
+include("dbconn.php");
+$search_option ="name";
+$search = "%";
+if (isset($_POST["search_option"])){
+    $search_option = $_POST["search_option"];
+    $search=$_POST["search"];
+}
+$sql = "select * from guestbook
+    where $search_option like '$search'
+    order by idx desc
+";
+
+$rs = mysql_query($sql);
+$count = mysql_num_rows($rs);
+?>
+<h2>방명록</h2>
+<form name="form1" method="post">
+<select name="search_option">
+<?php if($search_option == "name"){?>
+	<option value="name" selected>이름</option>
+	<option value="content">내용</option>
+	<?php } else if($search_option=="content") {?>
+	<option value="name" >이름</option>
+	<option value="content"selected>내용</option>
+	<?php }?>
+</select>
+	<input type="text" name="search" value="<?php echo $search;?>">
+	<input type="submit" value="검색">
+</form>
+<?php echo $count;?> 건의 게시물이 있습니다.</br>
+<a href="write.html">글쓰기</a>
+<table border="1" width="700px">
+	<tr>
+	<th>번호</th>
+	<th>이름</th>
+	<th>이메일</th>
+	<th>내용</th>
+	<th>날짜</th>
+	</tr>
+	<?php 
+	while($row = mysql_fetch_array($rs)){
+	    $name = $row["name"];
+	    $email = $row["email"];
+	    $content = $row ["content"];
+	    
+	   // $name = strip_tags($name);
+	   // $email = strip_tags($email);
+	  //  $content = strip_tags($content);
+	  $name = str_replace("<", "&lt;",$name);
+	  $name = str_replace(">", "&gt;",$name);
+	  $email = str_replace("<", "&lt;",$email);
+	  $email = str_replace(">", "&gt;",$email);
+	  $content = str_replace("<", "&lt;",$content);
+	  $content= str_replace(">", "&gt;",$content);
+	  $content = nl2br($content);
+	  $content = str_replace("  ", "&nbsp;&nbsp;", $content);
+	    
+	    echo "
+            <tr>
+                <td>$row[idx]</td>
+                <td>$name</td>
+                <td>$email</td>
+                <td>
+                    <a href='view.php?idx=$row[idx]'>$content</a>
+                </td>
+                <td>$row[post_date]</td>
+            </tr>
+        ";
+
+	}
+	?>
+</table>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<?php 
+include("dbconn.php");
+$sql = "select * from guestbook where idx=". $_GET["idx"];
+$rs = mysql_query($sql);
+if($row = mysql_fetch_array($rs)) {
+    $name = $row["name"];
+    $email = $row["email"];
+    $content = $row["content"];
+}
+//mysql_close();
+?>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+function update(){
+	document.form1.action ="update.php";
+	document.form1.submit();
+}
+</script>
+</head>
+<body>
+<h2>방명록</h2>
+<form name="form1" method="post">
+<table border="1">
+	<tr>
+		<td>이름</td>
+		<td><input name="name" 
+		value="<?php echo $name;?>"></td>
+	</tr>
+		<tr>
+		<td>이메일</td>
+		<td><input name="email"
+		 value="<?php echo $email;?>"></td>
+	</tr>
+		<tr>
+		<td colspan="2">
+		<textarea rows="5" cols="60"
+		name="content"><?php echo $content;?></textarea>
+		</td>
+	</tr>
+		<tr>
+		<td colspan="2">
+		<input type="hidden" name="idx"
+		value="<?php echo $_GET["idx"]?>">
+		<input type="button" value="수정" onclick="update()">
+		</td>
+	</tr>
+</table>
+</form>
+</body>
+</html>
+
+

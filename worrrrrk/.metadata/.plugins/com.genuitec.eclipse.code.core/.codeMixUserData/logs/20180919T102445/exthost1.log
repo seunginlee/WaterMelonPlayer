@@ -1,0 +1,30 @@
+[2018-09-19 10:24:59.002] [exthost1] [info] extension host started
+[2018-09-19 10:24:59.147] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:24:59.147] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\emmet\out\extension
+[2018-09-19 10:25:01.228] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:25:01.228] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\git\out\main
+[2018-09-19 10:25:06.411] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:25:06.412] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\merge-conflict\out\extension
+[2018-09-19 10:25:06.550] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:25:06.550] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\search-rg\out\extension
+[2018-09-19 10:25:06.623] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:25:06.623] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\SeungIn\.vscode\extensions\christian-kohler.path-intellisense-1.4.2\out\src\extension
+[2018-09-19 10:25:06.645] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:25:06.645] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\SeungIn\.vscode\extensions\formulahendry.auto-close-tag-0.5.6\out\src\extension
+[2018-09-19 10:25:06.647] [exthost1] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:25:06.647] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\SeungIn\.vscode\extensions\hookyqr.beautify-1.4.3\extension
+[2018-09-19 10:25:06.719] [exthost1] [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion {"startup":true,"activationEvent":"*"}
+[2018-09-19 10:25:06.719] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\SeungIn\.vscode\extensions\zignd.html-css-class-completion-1.17.1\out\src\extension
+[2018-09-19 10:25:07.515] [exthost1] [info] eager extensions activated
+[2018-09-19 10:25:07.516] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-19 10:25:07.516] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\configuration-editing\out\extension
+[2018-09-19 10:25:07.606] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-19 10:25:07.606] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\json-language-features\client\out\jsonMain
+[2018-09-19 10:25:08.630] [exthost1] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-19 10:25:08.630] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\php-language-features\out\phpMain
+[2018-09-19 10:25:08.842] [exthost1] [info] ExtensionService#_doActivateExtension kokororin.vscode-phpfmt {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-19 10:25:08.842] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\SeungIn\.vscode\extensions\kokororin.vscode-phpfmt-1.0.30\out\src\extension
+[2018-09-19 10:25:08.857] [exthost1] [info] ExtensionService#_doActivateExtension linyang95.php-symbols {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-19 10:25:08.857] [exthost1] [info] ExtensionService#loadCommonJSModule C:\Users\SeungIn\.vscode\extensions\linyang95.php-symbols-2.1.0\extension
+[2018-09-19 10:25:53.272] [exthost1] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2018-09-19 10:25:53.272] [exthost1] [info] ExtensionService#loadCommonJSModule c:\Users\SeungIn\.codemix\engine\resources\app\extensions\css-language-features\client\out\cssMain

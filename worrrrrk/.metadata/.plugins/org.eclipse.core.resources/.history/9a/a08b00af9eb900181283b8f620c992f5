@@ -1,0 +1,50 @@
+<?php
+include("dbconn.php");
+$sql = "select * from guestbook order by idx desc";
+$rs = mysql_query($sql);
+$count = mysql_num_rows($rs);
+?>
+<h2>방명록</h2>
+<?php echo $count;?> 건의 게시물이 있습니다.</br>
+<a href="write.html">글쓰기</a>
+<table border="1" width="700px">
+	<tr>
+	<th>번호</th>
+	<th>이름</th>
+	<th>이메일</th>
+	<th>내용</th>
+	<th>날짜</th>
+	</tr>
+	<?php 
+	while($row = mysql_fetch_array($rs)){
+	    $name = $row["name"];
+	    $email = $row["email"];
+	    $content = $row ["content"];
+	    
+	   // $name = strip_tags($name);
+	   // $email = strip_tags($email);
+	  //  $content = strip_tags($content);
+	  $name = str_replace("<", "&lt;",$name);
+	  $name = str_replace(">", "&gt;",$name);
+	  $email = str_replace("<", "&lt;",$email);
+	  $email = str_replace(">", "&gt;",$email);
+	  $content = str_replace("<", "&lt;",$content);
+	  $content= str_replace(">", "&gt;",$content);
+	  $content = nl2br($content);
+	  $content = str_replace("  ", "&nbsp;&nbsp;", $content);
+	    
+	    echo "
+            <tr>
+                <td>$row[idx]</td>
+                <td>$name</td>
+                <td>$email</td>
+                <td>
+                    <a href='view.php?idx=$row[idx]'>$content</a>
+                </td>
+                <td>$row[post_date]</td>
+            </tr>
+        ";
+
+	}
+	?>
+</table>

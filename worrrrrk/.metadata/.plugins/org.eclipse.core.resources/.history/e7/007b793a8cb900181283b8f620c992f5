@@ -1,0 +1,29 @@
+<?php
+include("dbconn.php");
+$sql = "select * from guestbook order by idx desc";
+$rs = mysql_query($sql);
+?>
+<h2>방명록</h2>
+<table border="1">
+	<tr>
+	<th>번호</th>
+	<th>이름</th>
+	<th>이메일</th>
+	<th>내용</th>
+	<th>날짜</th>
+	</tr>
+	<?php 
+	while($row = mysql_fetch_array($rs)){
+	    echo "
+            <tr>
+                <td>$row[idx]</td>
+                <td>$row[name]</td>
+                <td>$row[email]</td>
+                <td>$row[content]</td>
+                <td>$row[post_date]</td>
+            </tr>
+        ";
+
+	}
+	?>
+</table>

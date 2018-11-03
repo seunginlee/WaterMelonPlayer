@@ -1,0 +1,234 @@
+[2018-09-19 01:39:02.165] [sharedprocess] [info] main {"machineId":"8161a1ef18323f33e291e35ebc33ced3d6940ee646e47ec707faa49beb9ff0fc"}
+[2018-09-19 01:39:02.179] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:02.335] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:05.860] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:05.861] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:05.969] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:08.041] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:08.204] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:09.822] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:12.458] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:12.459] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:12.459] [sharedprocess] [info] Installing the extension: codemix.php-0.9.4
+[2018-09-19 01:39:12.464] [sharedprocess] [info] Scanned user extensions: 0
+[2018-09-19 01:39:12.709] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:12.801] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.codemix.php-0.9.4: codemix.php-0.9.4
+[2018-09-19 01:39:12.802] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\codemix.php-0.9.4
+[2018-09-19 01:39:12.802] [sharedprocess] [info] Installation completed. codemix.php-0.9.4
+[2018-09-19 01:39:12.804] [sharedprocess] [info] Successfully installed the extension: codemix.php-0.9.4
+[2018-09-19 01:39:12.813] [sharedprocess] [info] Scanned user extensions: 1
+[2018-09-19 01:39:12.919] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:12.966] [sharedprocess] [info] Scanned user extensions: 1
+[2018-09-19 01:39:13.080] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:19.754] [sharedprocess] [info] Scanned user extensions: 1
+[2018-09-19 01:39:19.757] [sharedprocess] [info] Scanned user extensions: 1
+[2018-09-19 01:39:19.757] [sharedprocess] [info] Installing the extension: felixfbecker.php-debug-1.12.3
+[2018-09-19 01:39:19.767] [sharedprocess] [info] Scanned user extensions: 1
+[2018-09-19 01:39:19.809] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:25.749] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.felixfbecker.php-debug-1.12.3: felixfbecker.php-debug-1.12.3
+[2018-09-19 01:39:25.750] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\felixfbecker.php-debug-1.12.3
+[2018-09-19 01:39:25.750] [sharedprocess] [info] Installation completed. felixfbecker.php-debug-1.12.3
+[2018-09-19 01:39:25.756] [sharedprocess] [info] Successfully installed the extension: felixfbecker.php-debug-1.12.3
+[2018-09-19 01:39:25.774] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-19 01:39:25.822] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:25.899] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-19 01:39:25.959] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:25.964] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-19 01:39:25.970] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-19 01:39:25.970] [sharedprocess] [info] Installing the extension: hookyqr.beautify-1.3.0
+[2018-09-19 01:39:25.978] [sharedprocess] [info] Scanned user extensions: 2
+[2018-09-19 01:39:26.022] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:29.838] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.hookyqr.beautify-1.3.0: hookyqr.beautify-1.3.0
+[2018-09-19 01:39:29.839] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\hookyqr.beautify-1.3.0
+[2018-09-19 01:39:29.839] [sharedprocess] [info] Installation completed. hookyqr.beautify-1.3.0
+[2018-09-19 01:39:29.841] [sharedprocess] [info] Successfully installed the extension: hookyqr.beautify-1.3.0
+[2018-09-19 01:39:29.852] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-19 01:39:29.884] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:29.960] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-19 01:39:29.994] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-19 01:39:30.006] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-19 01:39:30.006] [sharedprocess] [info] Installing the extension: linyang95.php-symbols-2.0.4
+[2018-09-19 01:39:30.018] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:30.031] [sharedprocess] [info] Scanned user extensions: 3
+[2018-09-19 01:39:30.077] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:30.169] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.linyang95.php-symbols-2.0.4: linyang95.php-symbols-2.0.4
+[2018-09-19 01:39:30.169] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\linyang95.php-symbols-2.0.4
+[2018-09-19 01:39:30.169] [sharedprocess] [info] Installation completed. linyang95.php-symbols-2.0.4
+[2018-09-19 01:39:30.171] [sharedprocess] [info] Successfully installed the extension: linyang95.php-symbols-2.0.4
+[2018-09-19 01:39:30.198] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-19 01:39:30.275] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:30.302] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-19 01:39:30.375] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:30.412] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-19 01:39:30.417] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-19 01:39:30.417] [sharedprocess] [info] Installing the extension: formulahendry.auto-close-tag-0.5.6
+[2018-09-19 01:39:30.436] [sharedprocess] [info] Scanned user extensions: 4
+[2018-09-19 01:39:30.481] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:30.573] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.formulahendry.auto-close-tag-0.5.6: formulahendry.auto-close-tag-0.5.6
+[2018-09-19 01:39:30.573] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\formulahendry.auto-close-tag-0.5.6
+[2018-09-19 01:39:30.573] [sharedprocess] [info] Installation completed. formulahendry.auto-close-tag-0.5.6
+[2018-09-19 01:39:30.575] [sharedprocess] [info] Successfully installed the extension: formulahendry.auto-close-tag-0.5.6
+[2018-09-19 01:39:30.584] [sharedprocess] [info] Scanned user extensions: 5
+[2018-09-19 01:39:30.618] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:30.686] [sharedprocess] [info] Scanned user extensions: 5
+[2018-09-19 01:39:30.714] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:34.552] [sharedprocess] [info] Scanned user extensions: 5
+[2018-09-19 01:39:34.555] [sharedprocess] [info] Scanned user extensions: 5
+[2018-09-19 01:39:34.555] [sharedprocess] [info] Installing the extension: zignd.html-css-class-completion-1.17.1
+[2018-09-19 01:39:34.563] [sharedprocess] [info] Scanned user extensions: 5
+[2018-09-19 01:39:34.597] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:39:42.171] [sharedprocess] [info] Starting to clean up unused language packs.
+[2018-09-19 01:40:16.162] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.zignd.html-css-class-completion-1.17.1: zignd.html-css-class-completion-1.17.1
+[2018-09-19 01:40:16.166] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\zignd.html-css-class-completion-1.17.1
+[2018-09-19 01:40:16.166] [sharedprocess] [info] Installation completed. zignd.html-css-class-completion-1.17.1
+[2018-09-19 01:40:16.171] [sharedprocess] [info] Successfully installed the extension: zignd.html-css-class-completion-1.17.1
+[2018-09-19 01:40:16.190] [sharedprocess] [info] Scanned user extensions: 6
+[2018-09-19 01:40:16.237] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:16.271] [sharedprocess] [info] Scanned user extensions: 6
+[2018-09-19 01:40:16.347] [sharedprocess] [info] Scanned user extensions: 6
+[2018-09-19 01:40:16.369] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:16.398] [sharedprocess] [info] Scanned user extensions: 6
+[2018-09-19 01:40:16.462] [sharedprocess] [info] Scanned user extensions: 6
+[2018-09-19 01:40:16.462] [sharedprocess] [info] Installing the extension: codemix.web-0.9.1
+[2018-09-19 01:40:16.510] [sharedprocess] [info] Scanned user extensions: 6
+[2018-09-19 01:40:16.537] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:16.600] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:16.622] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.codemix.web-0.9.1: codemix.web-0.9.1
+[2018-09-19 01:40:16.623] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\codemix.web-0.9.1
+[2018-09-19 01:40:16.623] [sharedprocess] [info] Installation completed. codemix.web-0.9.1
+[2018-09-19 01:40:16.624] [sharedprocess] [info] Successfully installed the extension: codemix.web-0.9.1
+[2018-09-19 01:40:16.637] [sharedprocess] [info] Scanned user extensions: 7
+[2018-09-19 01:40:16.707] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:16.746] [sharedprocess] [info] Scanned user extensions: 7
+[2018-09-19 01:40:16.771] [sharedprocess] [info] Scanned user extensions: 7
+[2018-09-19 01:40:16.885] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:16.889] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:16.898] [sharedprocess] [info] Scanned user extensions: 7
+[2018-09-19 01:40:16.903] [sharedprocess] [info] Scanned user extensions: 7
+[2018-09-19 01:40:16.903] [sharedprocess] [info] Installing the extension: christian-kohler.path-intellisense-1.4.2
+[2018-09-19 01:40:16.914] [sharedprocess] [info] Scanned user extensions: 7
+[2018-09-19 01:40:16.977] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:17.306] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.christian-kohler.path-intellisense-1.4.2: christian-kohler.path-intellisense-1.4.2
+[2018-09-19 01:40:17.307] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\christian-kohler.path-intellisense-1.4.2
+[2018-09-19 01:40:17.307] [sharedprocess] [info] Installation completed. christian-kohler.path-intellisense-1.4.2
+[2018-09-19 01:40:17.308] [sharedprocess] [info] Successfully installed the extension: christian-kohler.path-intellisense-1.4.2
+[2018-09-19 01:40:17.318] [sharedprocess] [info] Scanned user extensions: 8
+[2018-09-19 01:40:17.358] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:17.400] [sharedprocess] [info] Scanned user extensions: 8
+[2018-09-19 01:40:17.423] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:17.473] [sharedprocess] [info] Scanned user extensions: 8
+[2018-09-19 01:40:17.498] [sharedprocess] [info] Scanned user extensions: 8
+[2018-09-19 01:40:17.538] [sharedprocess] [info] Scanned user extensions: 8
+[2018-09-19 01:40:17.538] [sharedprocess] [info] Installing the extension: felixfbecker.php-intellisense-2.3.1
+[2018-09-19 01:40:17.582] [sharedprocess] [info] Scanned user extensions: 8
+[2018-09-19 01:40:17.583] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:17.665] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:44.147] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.felixfbecker.php-intellisense-2.3.1: felixfbecker.php-intellisense-2.3.1
+[2018-09-19 01:40:44.151] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\felixfbecker.php-intellisense-2.3.1
+[2018-09-19 01:40:44.151] [sharedprocess] [info] Installation completed. felixfbecker.php-intellisense-2.3.1
+[2018-09-19 01:40:44.153] [sharedprocess] [info] Successfully installed the extension: felixfbecker.php-intellisense-2.3.1
+[2018-09-19 01:40:44.167] [sharedprocess] [info] Scanned user extensions: 9
+[2018-09-19 01:40:44.194] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:44.289] [sharedprocess] [info] Scanned user extensions: 9
+[2018-09-19 01:40:44.326] [sharedprocess] [info] Scanned user extensions: 9
+[2018-09-19 01:40:44.379] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:44.399] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:44.415] [sharedprocess] [info] Scanned user extensions: 9
+[2018-09-19 01:40:44.424] [sharedprocess] [info] Scanned user extensions: 9
+[2018-09-19 01:40:44.424] [sharedprocess] [info] Installing the extension: formulahendry.code-runner-0.9.3
+[2018-09-19 01:40:44.455] [sharedprocess] [info] Scanned user extensions: 9
+[2018-09-19 01:40:44.536] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:45.995] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.formulahendry.code-runner-0.9.3: formulahendry.code-runner-0.9.3
+[2018-09-19 01:40:45.996] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\formulahendry.code-runner-0.9.3
+[2018-09-19 01:40:45.996] [sharedprocess] [info] Installation completed. formulahendry.code-runner-0.9.3
+[2018-09-19 01:40:45.998] [sharedprocess] [info] Successfully installed the extension: formulahendry.code-runner-0.9.3
+[2018-09-19 01:40:46.022] [sharedprocess] [info] Scanned user extensions: 10
+[2018-09-19 01:40:46.063] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:46.114] [sharedprocess] [info] Scanned user extensions: 10
+[2018-09-19 01:40:46.161] [sharedprocess] [info] Scanned user extensions: 10
+[2018-09-19 01:40:46.221] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:46.233] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:46.258] [sharedprocess] [info] Scanned user extensions: 10
+[2018-09-19 01:40:46.270] [sharedprocess] [info] Scanned user extensions: 10
+[2018-09-19 01:40:46.270] [sharedprocess] [info] Installing the extension: msjsdiag.debugger-for-chrome-4.4.3
+[2018-09-19 01:40:46.315] [sharedprocess] [info] Scanned user extensions: 10
+[2018-09-19 01:40:46.380] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:50.197] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.msjsdiag.debugger-for-chrome-4.4.3: msjsdiag.debugger-for-chrome-4.4.3
+[2018-09-19 01:40:50.198] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\msjsdiag.debugger-for-chrome-4.4.3
+[2018-09-19 01:40:50.198] [sharedprocess] [info] Installation completed. msjsdiag.debugger-for-chrome-4.4.3
+[2018-09-19 01:40:50.200] [sharedprocess] [info] Successfully installed the extension: msjsdiag.debugger-for-chrome-4.4.3
+[2018-09-19 01:40:50.214] [sharedprocess] [info] Scanned user extensions: 11
+[2018-09-19 01:40:50.249] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:50.288] [sharedprocess] [info] Scanned user extensions: 11
+[2018-09-19 01:40:50.346] [sharedprocess] [info] Scanned user extensions: 11
+[2018-09-19 01:40:50.351] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:50.400] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:50.431] [sharedprocess] [info] Scanned user extensions: 11
+[2018-09-19 01:40:50.446] [sharedprocess] [info] Scanned user extensions: 11
+[2018-09-19 01:40:50.446] [sharedprocess] [info] Installing the extension: dbaeumer.vscode-eslint-1.4.10
+[2018-09-19 01:40:50.490] [sharedprocess] [info] Scanned user extensions: 11
+[2018-09-19 01:40:50.535] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:51.993] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.dbaeumer.vscode-eslint-1.4.10: dbaeumer.vscode-eslint-1.4.10
+[2018-09-19 01:40:51.994] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\dbaeumer.vscode-eslint-1.4.10
+[2018-09-19 01:40:51.994] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint-1.4.10
+[2018-09-19 01:40:51.995] [sharedprocess] [info] Successfully installed the extension: dbaeumer.vscode-eslint-1.4.10
+[2018-09-19 01:40:52.014] [sharedprocess] [info] Scanned user extensions: 12
+[2018-09-19 01:40:52.029] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:52.072] [sharedprocess] [info] Scanned user extensions: 12
+[2018-09-19 01:40:52.142] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:52.156] [sharedprocess] [info] Scanned user extensions: 12
+[2018-09-19 01:40:52.225] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:52.233] [sharedprocess] [info] Scanned user extensions: 12
+[2018-09-19 01:40:52.253] [sharedprocess] [info] Scanned user extensions: 12
+[2018-09-19 01:40:52.253] [sharedprocess] [info] Installing the extension: kokororin.vscode-phpfmt-1.0.29
+[2018-09-19 01:40:52.282] [sharedprocess] [info] Scanned user extensions: 12
+[2018-09-19 01:40:52.317] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:52.900] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.kokororin.vscode-phpfmt-1.0.29: kokororin.vscode-phpfmt-1.0.29
+[2018-09-19 01:40:52.901] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\kokororin.vscode-phpfmt-1.0.29
+[2018-09-19 01:40:52.901] [sharedprocess] [info] Installation completed. kokororin.vscode-phpfmt-1.0.29
+[2018-09-19 01:40:52.902] [sharedprocess] [info] Successfully installed the extension: kokororin.vscode-phpfmt-1.0.29
+[2018-09-19 01:40:52.923] [sharedprocess] [info] Scanned user extensions: 13
+[2018-09-19 01:40:52.960] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:53.002] [sharedprocess] [info] Scanned user extensions: 13
+[2018-09-19 01:40:53.061] [sharedprocess] [info] Scanned user extensions: 13
+[2018-09-19 01:40:53.081] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:53.109] [sharedprocess] [info] Scanned user extensions: 13
+[2018-09-19 01:40:53.158] [sharedprocess] [info] Scanned user extensions: 13
+[2018-09-19 01:40:53.158] [sharedprocess] [info] Installing the extension: xabikos.javascriptsnippets-1.6.0
+[2018-09-19 01:40:53.164] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:53.216] [sharedprocess] [info] Scanned user extensions: 13
+[2018-09-19 01:40:53.253] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:53.297] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.xabikos.javascriptsnippets-1.6.0: xabikos.javascriptsnippets-1.6.0
+[2018-09-19 01:40:53.298] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\xabikos.javascriptsnippets-1.6.0
+[2018-09-19 01:40:53.298] [sharedprocess] [info] Installation completed. xabikos.javascriptsnippets-1.6.0
+[2018-09-19 01:40:53.299] [sharedprocess] [info] Successfully installed the extension: xabikos.javascriptsnippets-1.6.0
+[2018-09-19 01:40:53.317] [sharedprocess] [info] Scanned user extensions: 14
+[2018-09-19 01:40:53.341] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:53.382] [sharedprocess] [info] Scanned user extensions: 14
+[2018-09-19 01:40:53.422] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:53.446] [sharedprocess] [info] Scanned user extensions: 14
+[2018-09-19 01:40:53.500] [sharedprocess] [info] Scanned user extensions: 14
+[2018-09-19 01:40:53.533] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:40:53.540] [sharedprocess] [info] Scanned user extensions: 14
+[2018-09-19 01:40:53.540] [sharedprocess] [info] Installing the extension: mkaufman.htmlhint-0.5.0
+[2018-09-19 01:40:53.575] [sharedprocess] [info] Scanned user extensions: 14
+[2018-09-19 01:40:53.605] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:41:03.305] [sharedprocess] [info] Extracted extension to C:\Users\SeungIn\.vscode\extensions\.mkaufman.htmlhint-0.5.0: mkaufman.htmlhint-0.5.0
+[2018-09-19 01:41:03.306] [sharedprocess] [info] Renamed to C:\Users\SeungIn\.vscode\extensions\mkaufman.htmlhint-0.5.0
+[2018-09-19 01:41:03.306] [sharedprocess] [info] Installation completed. mkaufman.htmlhint-0.5.0
+[2018-09-19 01:41:03.312] [sharedprocess] [info] Successfully installed the extension: mkaufman.htmlhint-0.5.0
+[2018-09-19 01:41:03.337] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:41:03.373] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:41:03.423] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:41:03.457] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:41:03.526] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:41:03.536] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:41:05.398] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:41:05.407] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:41:05.462] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:41:05.678] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:41:05.762] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:41:06.336] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:41:06.423] [sharedprocess] [info] Scanned system extensions: 71
+[2018-09-19 01:41:09.049] [sharedprocess] [info] Scanned user extensions: 15
+[2018-09-19 01:46:09.090] [sharedprocess] [info] Scanned user extensions: 15

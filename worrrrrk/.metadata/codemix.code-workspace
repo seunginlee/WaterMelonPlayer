@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": "G:\\subakplayer\\worrrrrk\\php01"
+        }
+    ],
+    "settings": {
+        "php.suggest.basic": "false",
+        "htmlhint.options": {
+            "attr-value-double-quotes": true,
+            "attr-no-duplication": true,
+            "tag-pair": true,
+            "spec-char-escape": true,
+            "id-unique": false,
+            "src-not-empty": true,
+            "title-require": true
+        }
+    }
+}

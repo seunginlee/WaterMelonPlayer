@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="board.css">
+</head>
+<body>
+<?php
+include("/var/www/html/include/dbconn.php");
+$id = $_GET["id"];
+if( isset($_GET["no"])) {
+    $no = $_GET["no"];
+}
+$result = mysql_query("select * from board
+    where id=$id", $conn);
+$row = mysql_fetch-array($result);
+?>
+<?php echo $row["title"];?>
+<?=$row["title"]?>
+<table width="580" border="1">
+	<tr>
+		<td colspan="4" align="center"> 
+		<b><?=$row["title"]?></b>
+		</td>
+	</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?php
+$host = "localhost";
+$user ="web";
+$passwd ="1234";
+$conn = mysql_connect($host, $user, $passwd);
+mysqli_select_db("web");
+if( $conn == true ){
+    echo "mariadb에 연결 되었습니다.";
+}else{
+    echo "db 연결 에러";
+    
+}   
+?>

@@ -1,0 +1,19 @@
+<?php
+include("/var/www/html/include/dbconn.php");
+$id = $_GET["id"];
+$name = $_POST["name"];
+$email = $_POST["email"];
+$pass = $_POST["pass"];
+$title = $_POST["title"];
+$content = $_POST["content"];
+$REMOTE_ADDR = $_SERVER["REMOTE_ADDR"];
+
+$query = "update board
+set name='$name', email='$email', title='$title', content='$content', where id=$id";
+$reuslt
+= mysql_query($query, $conn) or die(mysql_error());
+mysql_close($conn);
+
+?>
+
+<meta http-equiv="refresh" content="0;url=read.php?id=<?=$id?>">

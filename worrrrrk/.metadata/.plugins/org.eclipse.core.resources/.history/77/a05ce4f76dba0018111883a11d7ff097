@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="board.css">
+</head>
+<body>
+<?php
+include("/var/www/html/include/dbconn.php");
+$id = $_GET["id"];
+if( isset($_GET["no"])) {
+    $no = $_GET["no"];
+}
+$result = mysql_query("select * from board
+    where id=$id", $conn);
+$row = mysql_fetch_array($result);
+?>
+<?//php echo $row["title"];?>
+<?//=$row["title"]?>
+<table width="580" border="1">
+	<tr>
+		<td colspan="4" align="center"> 
+		<b><?=$row["title"]?></b>
+		</td>
+	</tr>
+	<tr>
+	<td align="center">글쓴이</td>
+	<td><?=$row["name"]?></td>
+	<td align="center">이메일</td>
+	<td><?=$row["email"]?></td>
+	</tr>
+ 	<tr>
+	<td align="center">날짜</td>
+	<td><?=$row["wdate"]?></td>
+	<td align="center">조회수</td>
+	<td><?=$row["view"]?></td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		<pre><?=$row["content"]?></pre>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="4">
+		<table width="100%">
+		<tr> 
+			<td>
+			<a href="list.php">[목록보기]</a>
+			<a href="write.php">[글쓰기]</a>
+			<a href="edit.php?id<?=$id?>">[수정]</a>
+			<a href="predel.php?id<?=$id?>">[삭제]</a>
+			</td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	
+</table>
+</body>
+</html>

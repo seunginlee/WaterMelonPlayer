@@ -1,0 +1,15 @@
+<?php
+include("dbconn.php");
+$idx = $_POST["idx"];
+$name = $_POST["name"];
+$email = $_POST["email"];
+$content = $_POST["content"];
+$sql = "
+update guestbook
+set name='$name', email='$email', content='$content' where idx=$idx";
+mysql_query($sql);
+?>
+
+<script>
+location.href="list.php";
+</script>

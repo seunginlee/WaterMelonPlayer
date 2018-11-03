@@ -1,0 +1,111 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+    
+    String col = Tool.checkNull(request.getParameter("col"));
+                String word = Tool.checkNull(request.getParameter("word"));
+                ArrayList<Pds3VO> list = dao.list(col, word);
+public ArrayList<OstVO> list(String col, String word) {
+        ArrayList<OstVO> list = new ArrayList<OstVO>();
+ 
+        try {
+            con = dbopen.getConnection();
+            sql = new StringBuffer();
+ 
+            if (col.equals("none")) {
+                sql.append(" SELECT ostno,rname, title, cnt, rdate, music, img1,img2,img1size,img2size,content,viewyn, thumb ");
+                sql.append(" FROM ost ");
+                sql.append(" WHERE rname LIKE ? OR content LIKE ?  OR title LIKE ? OR music LIKE ?");
+                sql.append(" ORDER BY ostno DESC");
+                pstmt = con.prepareStatement(sql.toString());
+                pstmt.setString(1, "%" + word + "%");
+                pstmt.setString(2, "%" + word + "%");
+                pstmt.setString(3, "%" + word + "%");
+                pstmt.setString(4, "%" + word + "%");
+ 
+            } else if (col.equals("rname")) {
+                sql.append(" SELECT ostno,rname, title, cnt, rdate, music, img1,img2,img1size,img2size,content,viewyn, thumb ");
+                sql.append(" FROM ost");
+                sql.append(" WHERE rname LIKE ?");
+                sql.append(" ORDER BY ostno DESC");
+                pstmt = con.prepareStatement(sql.toString());
+                pstmt.setString(1, "%" + word + "%");
+            } else if (col.equals("title")) {
+                sql.append(" SELECT ostno,rname, title, cnt, rdate, music, img1,img2,img1size,img2size,content,viewyn, thumb ");
+                sql.append(" FROM ost ");
+                sql.append(" WHERE title LIKE ?");
+                sql.append(" ORDER BY ostno DESC");
+                pstmt = con.prepareStatement(sql.toString());
+                pstmt.setString(1, "%" + word + "%");
+            } else if (col.equals("content")) {
+                sql.append(" SELECT ostno,rname, title, cnt, rdate, music, img1,img2,img1size,img2size,content,viewyn, thumb ");
+                sql.append(" FROM ost ");
+                sql.append(" WHERE content LIKE ?");
+                sql.append(" ORDER BY ostno DESC");
+                pstmt = con.prepareStatement(sql.toString());
+                pstmt.setString(1, "%" + word + "%");
+            } else if (col.equals("title_content")) {
+                sql.append(" SELECT ostno,rname, title, cnt, rdate, music, img1,img2,img1size,img2size,content,viewyn, thumb ");
+                sql.append(" FROM ost ");
+                sql.append(" WHERE title LIKE ? OR content LIKE ?");
+                sql.append(" ORDER BY ostno DESC");
+                pstmt = con.prepareStatement(sql.toString());
+                pstmt.setString(1, "%" + word + "%");
+                pstmt.setString(2, "%" + word + "%");
+            } else if (col.equals("ost")) {
+                sql.append(" SELECT ostno,rname, title, cnt, rdate, music, img1,img2,img1size,img2size,content,viewyn, thumb ");
+                sql.append(" FROM ost ");
+                sql.append(" WHERE music LIKE ?");
+                sql.append(" ORDER BY ostno DESC");
+                pstmt = con.prepareStatement(sql.toString());
+                pstmt.setString(1, "%" + word + "%");
+ 
+            } 
+            
+            else {
+                sql.append(" SELECT ostno,rname, title, cnt, rdate, music, img1,img2,img1size,img2size,content,viewyn, thumb ");
+                sql.append(" FROM ost ");
+                sql.append(" ORDER BY ostno DESC");
+                pstmt = con.prepareStatement(sql.toString());
+            }
+ 
+            rs = pstmt.executeQuery(); // SELECT
+ 
+            while (rs.next() == true) {
+                OstVO vo = new OstVO();
+ 
+                vo.setOstno(rs.getInt("ostno")); // Record -> �ڹ� ��ü
+                vo.setTitle(rs.getString("title"));
+                
+                vo.setRname(rs.getString("rname"));
+                vo.setContent(rs.getString("content"));
+                vo.setCnt(rs.getInt("cnt"));
+                vo.setRdate(rs.getString("rdate"));                
+                vo.setMusic(rs.getString("music"));
+                String[] img = new String[2];
+                img[0]="";img[1]="";
+                img[0]=(rs.getString("img1"));
+                img[1]=(rs.getString("img2"));
+                vo.setViewyn(rs.getString("viewyn"));
+                vo.setThumb(rs.getString("thumb"));
+                vo.setImg(img);
+ 
+                list.add(vo);
+            }
+ 
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            dbclose.close(con, pstmt, rs);
+        }
+ 
+        return list;
+    }
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+</body>
+</html>
